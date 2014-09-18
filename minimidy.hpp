@@ -1,6 +1,3 @@
 #pragma once
 
-namespace minimidi
-{
-
-}
+#include "midifile.hpp"
