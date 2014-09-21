@@ -67,8 +67,16 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DeltaTime.hpp" />
+    <ClInclude Include="EventBase.hpp" />
+    <ClInclude Include="FormatBase.hpp" />
+    <ClInclude Include="Header.hpp" />
+    <ClInclude Include="MetaEvent.hpp" />
+    <ClInclude Include="MIDIEvent.hpp" />
     <ClInclude Include="midifile.hpp" />
     <ClInclude Include="minimidy.hpp" />
+    <ClInclude Include="SysExEvent.hpp" />
+    <ClInclude Include="Track.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

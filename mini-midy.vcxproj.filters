@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\Format">
+      <UniqueIdentifier>{0d5eb4b0-8c8c-4b37-8b1f-9f97f4ea1bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Format\Event">
+      <UniqueIdentifier>{2b9b0b40-e918-4fd8-9209-998ade6b0adc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -25,6 +31,30 @@
     </ClInclude>
     <ClInclude Include="midifile.hpp">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTime.hpp">
+      <Filter>ヘッダー ファイル\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatBase.hpp">
+      <Filter>ヘッダー ファイル\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.hpp">
+      <Filter>ヘッダー ファイル\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="Track.hpp">
+      <Filter>ヘッダー ファイル\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBase.hpp">
+      <Filter>ヘッダー ファイル\Format\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaEvent.hpp">
+      <Filter>ヘッダー ファイル\Format\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="MIDIEvent.hpp">
+      <Filter>ヘッダー ファイル\Format\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="SysExEvent.hpp">
+      <Filter>ヘッダー ファイル\Format\Event</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
